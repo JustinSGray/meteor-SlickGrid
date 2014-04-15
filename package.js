@@ -5,6 +5,8 @@ Package.describe({
 Package.on_use(function (api) {
   api.use('jquery');
 
+  api.export('SlickGrid', 'client');
+
   api.add_files('SlickGrid/slick.core.js', 'client');
   api.add_files('SlickGrid/slick.dataview.js', 'client');
   api.add_files('SlickGrid/slick.editors.js', 'client');
@@ -19,5 +21,8 @@ Package.on_use(function (api) {
   api.add_files('SlickGrid/asset_path, ''SlickGrid/slick.core.css', 'client');
   api.add_files('SlickGrid/asset_path, ''SlickGrid/controls', 'slick.columnpicker.css', 'client');
   api.add_files('SlickGrid/asset_path, ''SlickGrid/controls', 'slick.pager.css', 'client');
-  
+
+
+
+
 });
