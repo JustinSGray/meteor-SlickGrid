@@ -1,0 +1,9 @@
+{
+  "name": "SlickGrid",
+  "description": "SlickGrid repackaged for Meteor",
+  "homepage": "https://github.com/mleibman/SlickGrid/wiki",
+  "author": "Justin Gray ",
+  "version": "0.0.1",
+  "git": "",
+  "packages": { }
+}
